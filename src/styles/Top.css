@@ -1,0 +1,31 @@
+.top_container {
+    flex: 1;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: flex-start;
+    height: 10vh;
+    width: 100vw;
+    padding: 5px;
+    padding-left: 50px;
+    background-color: rgba(6, 10, 39);
+    /* background-image: linear-gradient(to left, rgba(176, 156, 218, .5), rgba(78, 49, 142, .8)); */
+    position: fixed;
+    z-index: 20;
+    top: 0;
+}
+
+.title_txt {
+    font-family: DemiBold;
+    color: #D8CDF0;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.sub_title_txt {
+    font-family: DemiBold;
+    color: #D8CDF0;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 5%;
+}

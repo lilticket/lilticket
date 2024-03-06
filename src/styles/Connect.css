@@ -1,0 +1,61 @@
+.connect_container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(56, 63, 108, 1), rgba(84, 91, 134, 1));
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    top: 0;
+}
+
+.connect_inner_container {
+    height: 50vh;
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-left: 20vw;
+    margin-top: 20vh;
+    /* background-color: red; */
+}
+
+.connect_inner_body {
+    /* background-color: white; */
+    height: 50vh;
+    width: 35vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+
+.connect_input {
+    border-width: 0;
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 2px;
+
+}
+
+.connect_button {
+    margin-top: 25px;
+    background-color: transparent;
+    border-width: 0;
+}
+
+.connect_button :hover {
+    cursor: grab;
+}
+
+.connect_button_txt {
+    font-family: DemiBold;
+    color: #D8CDF0;
+    font-size: 2em;
+}
+
+.connect_title_txt {
+    font-family: DemiBold;
+    color: #D8CDF0;
+    font-size: 5em;
+}

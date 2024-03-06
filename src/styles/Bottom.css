@@ -1,0 +1,41 @@
+.bottom_container {
+    height: 25vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(56, 63, 108, 1), rgba(84, 91, 134, 1));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+}
+
+.bottom_inner_container {
+    width: 50%;
+    height: 15;
+    border-width: 1px;
+    border-color: #545B86;
+    border-style: solid;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+    background-color: rgba(56, 63, 108, 1);
+    filter: drop-shadow(0 0 0.75rem rgba(19, 25, 64, .5));
+}
+
+.bottom_inner_left {
+    width: 45%;
+    height: 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.bottom_txt {
+    font-family: DemiBold;
+    color: #D8CDF0;
+    font-size: 1em;
+}

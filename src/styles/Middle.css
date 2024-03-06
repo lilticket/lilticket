@@ -1,0 +1,27 @@
+.middle_container {
+    flex: 2;
+    height: 80vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle_scroll_container {
+    flex: 1;
+    display: flex;
+    background-color: darkkhaki;
+    /* height: 50%;
+    width: 90%; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+.middle_item {
+    height: 15vh;
+    width: 15vw;
+    background-color: blue;
+    margin: 25px;
+}

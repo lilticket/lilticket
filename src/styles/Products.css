@@ -1,0 +1,69 @@
+.item_body_txt {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.item_body_txt::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.products_container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left, rgba(56, 63, 108, 1), rgba(84, 91, 134, 1));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+}
+
+.items_container {
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 125px;
+}
+
+.item {
+    border-width: 1px;
+    border-color: #545B86;
+    border-style: solid;
+    height: 45vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    margin: 5%;
+    background-color: rgba(56, 63, 108, 1);
+    filter: drop-shadow(0 0 0.75rem rgba(19, 25, 64, .5));
+}
+
+.item_title_txt {
+    font-family: DemiBold;
+    color: #D8CDF0;
+    font-size: 4em;
+}
+
+.item_body_txt {
+    font-family: Regular;
+    color: #D8CDF0;
+    width: 15vw;
+    font-size: 1em;
+    height: 30vh;
+    /* background-color: red; */
+    overflow-y: scroll;
+}
+
+
+.item_link_txt {
+    font-family: Italic;
+    color: #D8CDF0;
+    font-size: 1em;
+}
